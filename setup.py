@@ -48,11 +48,13 @@ setup(
     url='https://github.com/assertpy/assertpy',
     download_url='https://github.com/assertpy/assertpy/archive/%s.tar.gz' % assertpy.__version__,
     keywords=['test', 'testing', 'assert', 'assertion', 'assertthat', 'assert_that', 'nose', 'nosetests', 'pytest', 'unittest'],
-    license='BSD',
+    license='BSD-3-Clause',
+    license-files=[
+        'LICENSE'
+    ],
     classifiers=[
         'Development Status :: 5 - Production/Stable',
         'Intended Audience :: Developers',
-        'License :: OSI Approved :: BSD License',
         'Natural Language :: English',
         'Operating System :: OS Independent',
         'Programming Language :: Python',
